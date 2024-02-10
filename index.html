@@ -29,6 +29,10 @@
     </style>
     <link
       rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
       data-tag="font"
     />
@@ -113,21 +117,21 @@
         <div class="home-header">
           <header
             data-thq="thq-navbar"
-            class="navbarContainer home-navbar-interactive"
+            class="home-navbar-interactive navbarContainer"
           >
-            <span class="logo">Robochain</span>
+            <span class="home-logo logo">obochain</span>
             <div data-thq="thq-navbar-nav" class="home-desktop-menu">
               <nav class="home-links">
                 <span class="home-nav12 bodySmall">Home</span>
-                <span class="home-nav2 bodySmall">Training</span>
-                <span class="home-nav3 bodySmall">Transformations</span>
-                <span class="home-nav4 bodySmall">Resources</span>
-                <span class="home-nav5 bodySmall">Contact</span>
+                <a href="#services" class="home-nav2 bodySmall">Training</a>
+                <a href="#services" class="home-nav3 bodySmall">
+                  Transformations
+                </a>
+                <a href="#features" class="home-nav4 bodySmall">Features</a>
+                <a href="mailto:?subject=" class="home-nav5 bodySmall">
+                  Contact
+                </a>
               </nav>
-              <div class="home-buttons">
-                <button class="home-login buttonFlat">Login</button>
-                <button class="buttonFilled">Register</button>
-              </div>
             </div>
             <div data-thq="thq-burger-menu" class="home-burger-menu">
               <svg viewBox="0 0 1024 1024" class="home-icon socialIcons">
@@ -161,7 +165,7 @@
                   <span class="home-nav41 bodySmall">Resources</span>
                   <span class="home-nav51 bodySmall">Contact</span>
                 </nav>
-                <div class="home-buttons1">
+                <div class="home-buttons">
                   <button class="buttonFlat">Login</button>
                   <button class="buttonFilled">Register</button>
                 </div>
@@ -192,6 +196,7 @@
               </div>
             </div>
           </header>
+          <img alt="image" src="public/robochain-200h.gif" class="home-image" />
         </div>
         <div class="home-hero">
           <div class="heroContainer home-hero1">
@@ -225,15 +230,19 @@
                 </span>
               </span>
               <div class="home-btn-group">
-                <button class="buttonFilled">Get Started</button>
-                <button class="buttonFlat">Learn More&nbsp;→</button>
+                <a href="#services" class="home-hero-button1 buttonFilled">
+                  Get Started
+                </a>
+                <a href="#FAQ" class="home-hero-button2 buttonFlat">
+                  Learn More&nbsp;→
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="home-features">
           <div class="featuresContainer">
-            <div class="home-features1">
+            <div id="features" class="home-features1">
               <div class="home-container02">
                 <span class="overline">
                   <span>features</span>
@@ -344,7 +353,7 @@
           </div>
         </div>
         <div class="home-pricing">
-          <div class="pricingContainer">
+          <div id="services" class="home-services pricingContainer">
             <div class="home-container04">
               <span class="overline">
                 <span>Services</span>
@@ -365,81 +374,81 @@
                   </span>
                 </div>
                 <div class="home-container07">
-                  <span class="home-text35">
+                  <span>
                     <span>$</span>
-                    <span></span>
+                    <span class="Heading">499</span>
                   </span>
-                  <span class="home-free-plan-price">0</span>
                 </div>
                 <div class="home-container08">
                   <div class="home-container09">
-                    <a
-                      href="https://scaledagile.com/training/safe-scrum-master/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-free-plan-features"
-                    >
-                      SAFe SSM
-                    </a>
-                  </div>
-                  <div class="home-container10">
-                    <a
-                      href="https://scaledagile.com/training/safe-advanced-scrum-master/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-free-plan-features01"
-                    >
-                      SAFe SASM
-                    </a>
-                  </div>
-                  <div class="home-container11">
-                    <a
-                      href="https://scaledagile.com/training/safe-for-teams/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-free-plan-features02"
-                    >
-                      SAFe SP
-                    </a>
-                  </div>
-                  <div class="home-container12">
-                    <a
-                      href="https://scaledagile.com/training/safe-devops/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-free-plan-features03"
-                    >
-                      SAFe SDP
-                    </a>
-                  </div>
-                  <div class="home-container13">
-                    <a
-                      href="https://scaledagile.com/training/safe-product-owner-product-manager/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-free-plan-features04"
-                    >
-                      SAFe POPM
-                    </a>
-                  </div>
-                  <div class="home-container14">
-                    <a
-                      href="https://scaledagile.com/training/leading-safe/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="home-free-plan-features05"
-                    >
-                      SAFe SA
-                    </a>
+                    <div class="home-container10">
+                      <div class="home-container11">
+                        <a
+                          href="https://scaledagile.com/training/safe-scrum-master/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="home-free-plan-features"
+                        >
+                          SAFe Scrum Master - SSM
+                        </a>
+                      </div>
+                      <div class="home-container12">
+                        <a
+                          href="https://scaledagile.com/training/safe-advanced-scrum-master/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="home-free-plan-features01"
+                        >
+                          SAFe Advanced Scrum Master - SASM
+                        </a>
+                      </div>
+                      <div class="home-container13">
+                        <a
+                          href="https://scaledagile.com/training/safe-for-teams/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="home-free-plan-features02"
+                        >
+                          SAFe Practitioner - SP
+                        </a>
+                      </div>
+                      <div class="home-container14">
+                        <a
+                          href="https://scaledagile.com/training/safe-devops/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="home-free-plan-features03"
+                        >
+                          SAFe DevOps Practitioner - SDP
+                        </a>
+                      </div>
+                      <div class="home-container15">
+                        <a
+                          href="https://scaledagile.com/training/safe-product-owner-product-manager/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="home-free-plan-features04"
+                        >
+                          SAFe Product Owner/Product Manager - POPM
+                        </a>
+                      </div>
+                      <div class="home-container16">
+                        <a
+                          href="https://scaledagile.com/training/leading-safe/"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          class="home-free-plan-features05"
+                        >
+                          Leading SAFe - SA&nbsp;
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <button class="home-button buttonOutline">
-                  Contact for Pricing
-                </button>
               </div>
               <div class="basicPricingCard home-pricing-card1">
-                <div class="home-container15">
-                  <span class="home-text38 heading3">
+                <div class="home-container17">
+                  <span class="home-text37 heading3">
                     Organizational training
                   </span>
                   <span>
@@ -447,45 +456,80 @@
                     agile
                   </span>
                 </div>
-                <div class="home-container16">
-                  <span class="home-text39">
-                    <span>$</span>
-                    <span></span>
-                  </span>
-                  <span class="home-basic-plan-pricing">99</span>
-                  <span class="home-text42">/ month</span>
-                </div>
-                <div class="home-container17">
-                  <div class="home-container18">
-                    <span class="home-text43">✔</span>
-                    <span class="bodySmall">All features of FREE plan</span>
-                  </div>
+                <div class="home-container18">
                   <div class="home-container19">
-                    <span class="home-text45">✔</span>
-                    <span class="bodySmall">Access to training materials</span>
-                  </div>
-                  <div class="home-container20">
-                    <span class="home-text46">✔</span>
-                    <span class="bodySmall">Priority support</span>
-                  </div>
-                  <div class="home-container21">
-                    <span class="home-text47">✔</span>
-                    <span class="bodySmall">
-                      Access to transformation resources
-                    </span>
-                  </div>
-                  <div class="home-container22">
-                    <span class="home-text48">✔</span>
-                    <span class="bodySmall">Community forum access</span>
+                    <div class="home-container20">
+                      <a
+                        href="https://scaledagile.com/training/safe-scrum-master/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-free-plan-features06"
+                      >
+                        SAFe Scrum Master - SSM
+                      </a>
+                    </div>
+                    <div class="home-container21">
+                      <a
+                        href="https://scaledagile.com/training/safe-advanced-scrum-master/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-free-plan-features07"
+                      >
+                        SAFe Advanced Scrum Master - SASM
+                      </a>
+                    </div>
+                    <div class="home-container22">
+                      <a
+                        href="https://scaledagile.com/training/safe-for-teams/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-free-plan-features08"
+                      >
+                        SAFe Practitioner - SP
+                      </a>
+                    </div>
+                    <div class="home-container23">
+                      <a
+                        href="https://scaledagile.com/training/safe-devops/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-free-plan-features09"
+                      >
+                        SAFe DevOps Practitioner - SDP
+                      </a>
+                    </div>
+                    <div class="home-container24">
+                      <a
+                        href="https://scaledagile.com/training/safe-product-owner-product-manager/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-free-plan-features10"
+                      >
+                        SAFe Product Owner/Product Manager - POPM
+                      </a>
+                    </div>
+                    <div class="home-container25">
+                      <a
+                        href="https://scaledagile.com/training/leading-safe/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-free-plan-features11"
+                      >
+                        Leading SAFe - SA&nbsp;
+                      </a>
+                    </div>
                   </div>
                 </div>
-                <button class="home-button1 buttonFilledSecondary">
-                  Contact for Pricing
-                </button>
+                <a
+                  href="mailto:jamil@robochaintechnologies.com?subject=Organizational Training Details"
+                  class="home-link buttonFilledSecondary"
+                >
+                  Contact for Group Pricing
+                </a>
               </div>
-              <div class="proPricingCard home-pricing-card2">
-                <div class="home-container23">
-                  <span class="home-text49 heading3">
+              <div class="home-pricing-card2 proPricingCard">
+                <div class="home-container26">
+                  <span class="home-text38 heading3">
                     <span>agile transformation</span>
                     <br />
                   </span>
@@ -494,102 +538,60 @@
                     organizations
                   </span>
                 </div>
-                <div class="home-container24">
-                  <span class="home-text52">
-                    <span>$</span>
-                    <span></span>
-                  </span>
-                  <span class="home-pro-plan-pricing">199</span>
-                  <span class="home-text55">/ month</span>
-                </div>
-                <div class="home-container25">
-                  <div class="home-container26">
-                    <span class="home-text56">✔</span>
-                    <span class="bodySmall">
-                      &nbsp;All features of BASIC plan
-                    </span>
-                  </div>
-                  <div class="home-container27">
-                    <span class="home-text58">✔</span>
-                    <span class="bodySmall">Access to training materials</span>
-                  </div>
-                  <div class="home-container28">
-                    <span class="home-text59">✔</span>
-                    <span class="bodySmall">Priority support</span>
-                  </div>
-                  <div class="home-container29">
-                    <span class="home-text60">✔</span>
-                    <span class="bodySmall">
-                      Full access to transformation resources
-                    </span>
-                  </div>
-                  <div class="home-container30">
-                    <span class="home-text61">✔</span>
-                    <span class="bodySmall">Community forum access</span>
-                  </div>
-                </div>
-                <button class="home-button2 buttonFilledSecondary">
+                <a
+                  href="mailto:jamil@robochaintechnologies.com?subject=Agile Transformation Details"
+                  class="home-link1 buttonFilledSecondary"
+                >
                   Contact for Pricing
-                </button>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div class="home-banner">
-          <div class="bannerContainer home-banner1">
+          <div class="home-banner1 bannerContainer">
             <h1 class="home-banner-heading heading2">
               Transform Your Organization with Agile
             </h1>
             <span class="home-banner-sub-heading bodySmall">
               <span>
-                <span>
-                  <span>
-                    At Agile Training Solutions, we specialize in providing
-                    comprehensive agile training and transformation services to
-                    help organizations embrace the agile mindset and achieve
-                    their business goals. With our expert trainers and proven
-                    methodologies, we empower teams to deliver high-quality
-                    products and services faster, adapt to change, and foster a
-                    culture of continuous improvement.
-                  </span>
-                  <span></span>
-                </span>
-                <span>
-                  <span></span>
-                  <span></span>
-                </span>
+                We specialize in providing comprehensive agile training and
+                transformation services to help organizations embrace the lean
+                agile mindset and achieve their business goals. With our expert
+                trainers and proven methodologies, we empower teams to deliver
+                high-quality products and services faster, adapt to change, and
+                foster a culture of continuous improvement.
               </span>
-              <span>
-                <span>
-                  <span></span>
-                  <span></span>
-                </span>
-                <span>
-                  <span></span>
-                  <span></span>
-                </span>
-              </span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
             </span>
-            <button class="buttonFilled">Learn More</button>
+            <a href="#services" class="home-banner-button buttonFilled">
+              Learn More
+            </a>
           </div>
         </div>
         <div class="home-faq">
           <div class="faqContainer">
-            <div class="home-faq1">
-              <div class="home-container31">
+            <div id="FAQ" class="home-faq1">
+              <div class="home-container27">
                 <span class="overline">
                   <span>FAQ</span>
                   <br />
                 </span>
-                <h2 class="home-text79 heading2">Common questions</h2>
-                <span class="home-text80 bodyLarge">
+                <h2 class="home-text52 heading2">Common questions</h2>
+                <span class="home-text53 bodyLarge">
                   <span>
                     Here are some of the most common questions that we get.
                   </span>
                   <br />
                 </span>
               </div>
-              <div class="home-container32">
+              <div class="home-container28">
                 <div class="question1-container">
                   <span class="question1-text heading3">
                     <span>What is agile training?</span>
@@ -665,19 +667,26 @@
         </div>
         <div class="home-footer">
           <footer class="footerContainer home-footer1">
-            <div class="home-container33">
+            <div class="home-container29">
               <span class="logo">Robochain</span>
               <nav class="home-nav1">
-                <span class="home-nav11 bodySmall">Home</span>
-                <span class="home-nav22 bodySmall">Training</span>
-                <span class="home-nav32 bodySmall">Transformations</span>
-                <span class="home-nav42 bodySmall">Resources</span>
-                <span class="home-nav52 bodySmall">Contact</span>
+                <a href="index.html" class="home-nav11 bodySmall">Home</a>
+                <a href="#services" class="home-nav22">Training</a>
+                <a href="#services" class="home-nav32 bodySmall">
+                  Transformations
+                </a>
+                <a href="#features" class="home-nav42 bodySmall">Features</a>
+                <a
+                  href="mailto:jamil@robochaintechnologies.com?subject=Training Information"
+                  class="home-nav52 bodySmall"
+                >
+                  Contact
+                </a>
               </nav>
             </div>
             <div class="home-separator"></div>
-            <div class="home-container34">
-              <span class="bodySmall home-text83">
+            <div class="home-container30">
+              <span class="bodySmall home-text56">
                 © 2023 Robochain Technologies. All Rights Reserved.
               </span>
               <div class="home-icon-group1">
