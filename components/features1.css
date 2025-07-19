@@ -1,0 +1,298 @@
+.features1-layout251 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.features1-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.features1-max-width {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.features1-column {
+  gap: var(--dl-layout-space-halfunit);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.features1-text10 {
+  font-family: "Raleway";
+}
+ 
+.features1-text11 {
+  font-family: "Raleway";
+}
+ 
+.features1-content1 {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+ 
+.features1-row {
+  align-items: flex-start;
+}
+ 
+.features1-feature1 {
+  flex: 1;
+}
+ 
+.features1-pasted-image1 {
+  width: 250px;
+  height: 300px;
+}
+ 
+.features1-content2 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.features1-feature1-title {
+  font-family: "Raleway";
+}
+ 
+.features1-button1 {
+  text-decoration: none;
+}
+ 
+.features1-action11 {
+  font-family: "Raleway";
+}
+ 
+.features1-action12 {
+  font-family: "Raleway";
+  text-decoration: none;
+}
+ 
+.features1-feature2 {
+  flex: 1;
+}
+ 
+.features1-pasted-image2 {
+  width: 338px;
+  height: 365px;
+}
+ 
+.features1-content3 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.features1-feature2-title {
+  font-family: "Raleway";
+}
+ 
+.features1-action13 {
+  font-family: "Raleway";
+  text-decoration: none;
+}
+ 
+.features1-action14 {
+  font-family: "Raleway";
+  text-decoration: none;
+}
+ 
+.features1-feature3 {
+  flex: 1;
+  height: 587px;
+}
+ 
+.features1-pasted-image3 {
+  width: 250px;
+  height: 300px;
+}
+ 
+.features1-content4 {
+  width: 315px;
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.features1-feature3-title {
+  font-family: "Raleway";
+}
+ 
+.features1-button5 {
+  text-decoration: none;
+}
+ 
+.features1-action15 {
+  font-family: "Raleway";
+}
+ 
+.features1-button6 {
+  text-decoration: none;
+}
+ 
+.features1-action16 {
+  font-family: "Raleway";
+}
+ 
+.features1-actions {
+  gap: var(--dl-layout-space-unit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.features1-fragment10 {
+  display: contents;
+}
+ 
+.features1-text12 {
+  display: inline-block;
+}
+ 
+.features1-fragment11 {
+  display: contents;
+}
+ 
+.features1-text13 {
+  display: inline-block;
+}
+ 
+.features1-fragment12 {
+  display: contents;
+}
+ 
+.features1-text14 {
+  display: inline-block;
+}
+ 
+.features1-fragment13 {
+  display: contents;
+}
+ 
+.features1-text15 {
+  display: inline-block;
+}
+ 
+.features1-fragment14 {
+  display: contents;
+}
+ 
+.features1-text16 {
+  display: inline-block;
+}
+ 
+.features1-fragment15 {
+  display: contents;
+}
+ 
+.features1-text17 {
+  display: inline-block;
+}
+ 
+.features1-fragment16 {
+  display: contents;
+}
+ 
+.features1-text18 {
+  display: inline-block;
+}
+ 
+.features1-fragment17 {
+  display: contents;
+}
+ 
+.features1-text19 {
+  display: inline-block;
+}
+ 
+.features1-fragment18 {
+  display: contents;
+}
+ 
+.features1-text20 {
+  display: inline-block;
+}
+ 
+.features1-fragment19 {
+  display: contents;
+}
+ 
+.features1-text21 {
+  display: inline-block;
+}
+ 
+.features1-fragment20 {
+  display: contents;
+}
+ 
+.features1-text22 {
+  display: inline-block;
+}
+ 
+.features1root-class-name {
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
+}
+ 
+@media(max-width: 991px) {
+  .features1-section-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .features1-column {
+    width: 100%;
+  }
+  .features1-text10 {
+    text-align: center;
+  }
+  .features1-row {
+    flex-direction: column;
+  }
+  .features1-feature2 {
+    width: auto;
+  }
+  .features1-feature3 {
+    width: auto;
+  }
+  .features1-actions {
+    flex-wrap: wrap;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .features1-button1 {
+    width: 100%;
+  }
+  .features1-button2 {
+    width: 100%;
+  }
+  .features1-button3 {
+    width: 100%;
+  }
+  .features1-button4 {
+    width: 100%;
+  }
+  .features1-button5 {
+    width: 100%;
+  }
+  .features1-button6 {
+    width: 100%;
+  }
+  .features1-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+}
